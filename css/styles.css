@@ -1,0 +1,277 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color:  #2196F3;
+    --primary-white-color: #ffffff;
+    --bg-color-footer-hero: #2F303A;
+    --bg-color-section: #F5F4FA;
+    --primary-black-color: #000000;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+.container {
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+    
+}
+/*logo*/
+.logo {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.logo>.logo-one {
+    color: var(--accent-color);
+    }
+.logo>.logo-two {
+    color: var(--primary-black-color);
+        }
+.logo>.logo-three {
+    color: var(--primary-white-color);
+       }
+.list {
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+.link {
+    text-decoration: none;
+}
+/*стилізація навігації*/
+.linknav {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.linknav:hover,
+.linknav:focus,
+.linknav.current {
+    color: var(--accent-color);
+}
+.addressnav {
+    color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.addressnav:hover,
+.addressnav:focus {
+    color: var(--accent-color);
+}
+
+/*hero*/
+.hero {
+    background-color: var(--bg-color-footer-hero);
+    text-align: center;
+}
+.hero-title {
+     margin-top: 0;
+     margin-bottom: 30px;
+
+     color: var(--primary-white-color);
+     font-weight: 900;
+     font-size: 44px;
+     line-height: 1.36;
+     letter-spacing: 0.06em;
+     text-transform: uppercase;
+
+}
+/*секції*/
+.features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+/*нужно решить вопрос как уьрать с макета єтот заголовок!*/
+.hidden {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*заголовок в секции особенности*/
+.section.title {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+/*секція чим ми займаємося*/
+.jobs {
+    padding-top: 0;
+    padding-bottom: 94px;
+
+}
+.section-title {
+    margin-top: 20px;
+    margin-bottom: 4px;
+
+    color: var(--title-text-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    
+}
+.section {
+    color: var(--title-text-color);
+}
+/*секція наша команда*/
+.section-comand {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    background-color: var(--bg-color-section);
+
+}
+/*секція projects портфоліо*/
+.projects {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    
+}
+.selector {
+    margin-top: 0;
+    margin-bottom: 50px;
+    dislplay: flex;
+
+    
+}
+.resources {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+
+    font-size: 16px;
+    line-height: 1.88;
+    
+    
+}
+/*футер*/
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color: var(--bg-color-footer-hero);
+    color:var(--primary-white-color);
+    
+}
+.address {
+    margin-top: 20px;
+    margin-bottom: 0;
+    min-width: 231px;
+        
+}
+.addressfooter {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    font-size: 14px;
+    line-height: 2;
+    font-style: normal;
+}
+.linkfooter {
+    margin-top: 9px;
+
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 2;
+    font-style: normal;
+}
+.linkfooter:hover,
+.linkfooter:focus {
+    color: var(--accent-color);
+}
+.footeraddress {
+    margin-top: 20px;
+    
+}
+.names {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+.people {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+
+    font-size: 16px;
+    line-height: 1.19;
+}
+/*особливості*/
+.title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+/*абзац в секции особенности*/
+.description {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-size: 14px;
+    line-height: 2;
+   
+}
+/*заголовок секції jobs чим ми займаємося*/
+.occupation {
+    margin-top: 0;
+    margin-bottom: 50px;
+    
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+
+/*button*/
+.button {
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    border: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    list-style: none;
+
+}
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+.button.secondary {
+    background-color: var(--bg-color-section);
+    color: var(--title-text-color);
+}
+.hero > .button.primary {
+    padding: 10px 32px;
+    min-width: 216px;
+    text-align: center;
+
+    font-weight: 700;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+.button.portfolio {
+    padding: 6px 22px;
+    min-width: 73px;
+    text-align: center;
+}
